@@ -1,0 +1,16 @@
+{
+  "dataset": "tests/fixtures/var.csv",
+  "rows": 300,
+  "columns": 4,
+  "max_lag": 2,
+  "runs": 7,
+  "threads": 1,
+  "processor": "AMD EPYC 9V74",
+  "rust_version": "1.99.1",
+  "rust_median_ms": 1.184173,
+  "upstream_python_median_ms": 11.932355002500117,
+  "rust_times_ms": [1.133227, 1.140307, 1.149231, 1.184173, 1.206497, 2.092941, 3.043372],
+  "upstream_python_times_ms": [10.983967000356643, 11.084237001341535, 11.56739500220283, 11.932355002500117, 11.9554490011069, 12.926161001814762, 13.695748999452917],
+  "matching_edge_count": 6,
+  "method": "Warm in-process CPU runs. Rust release profile; upstream PyTorch CPU with one thread. CSV loading, Python imports and JSON serialization excluded. Fresh upstream CI object for each iteration, with caching disabled. Each implementation had one unmeasured warm-up."
+}

@@ -1,0 +1,18 @@
+{
+  "upstream_repository": "https://github.com/bloomberg/causal-ts",
+  "upstream_revision": "0d1fae061b2445a51d0c8b75fc565d897dd54fb7",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "torch": "2.14.1+cpu",
+  "dcor": "0.7",
+  "seed": 42,
+  "gcmi_jitter": 0,
+  "case_count": 25,
+  "rust_port_version": "0.2.0",
+  "cdnots_discovery_cases": 18,
+  "cdnots_plus_discovery_cases": 17,
+  "grace_neural_cases": 3,
+  "grace_oracle": "identical weights and uniform gate samples; forward, loss, gradients and one Adam update",
+  "cuda_validated": false,
+  "metal_validated": false
+}
